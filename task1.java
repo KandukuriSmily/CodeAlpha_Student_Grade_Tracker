@@ -22,9 +22,10 @@ class task1{
            sum+=list.get(i);
 
         }
+        float avg=sum/n;
         System.out.println("highest score:"+high);
         System.out.println("lowest score:"+low);
-        System.out.println("average score:"+(sum/n));
+        System.out.println("average score:"+avg);
         sc.close();
            
     }
